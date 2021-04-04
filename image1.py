@@ -1,4 +1,4 @@
-# 版本：V1.0
+# 版本：V2.0
 # 修改时间：2021-4-4
 # 修改人员：coresic
 
@@ -9,6 +9,7 @@ import numpy as np
 img = cv2.imread('img.png')
 print(img.shape)
 print(type(img))
+
 # 图片显示
 cv2.imshow('image1',img)
 # 等待无穷长时间
