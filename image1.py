@@ -7,6 +7,7 @@ print(img.shape)
 print(type(img))
 # 图片显示
 cv2.imshow('image1',img)
-cv2.waitKey(1000)
+# 等待无穷长时间
+cv2.waitKey(0)
 cv2.destroyAllWindows()
 
