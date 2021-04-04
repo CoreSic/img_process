@@ -10,4 +10,5 @@ cv2.imshow('image1',img)
 # 等待无穷长时间
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+cv2.destroyAllWindows()
 
